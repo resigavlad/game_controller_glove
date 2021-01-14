@@ -1,0 +1,12 @@
+***Default baudrate = 9600***
+***Default name = MLT-BT05***
+***Default pass = 123456***
+***AT+RESTART***
+
+
+AT+BAUD8 -- 115200
+AT+NAMEslvrcv -- set name to slvrcv (slave receiver)
+AT+LADDR -- get bluetooth address
+
+addr : 54:4A:16:1E:7C:3E
+

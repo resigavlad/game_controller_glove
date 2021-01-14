@@ -1,0 +1,2 @@
+On my particular nano board i have to upload the programm using the old bootloader (not original arduino board).
+Ex : Tools -> Processor -> ATmega328P (Old bootloader)

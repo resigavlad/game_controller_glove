@@ -1,0 +1,13 @@
+Dispozitivul este un controler pentru o aplicatie desktop (joc video) realizat dintr-o matrice de senzori
+(giroscop, accelerometru, senzori de flexie) montate pe o manusa de motociclist.
+
+Functonalitati de baza :
+	-citire si interpretare semnale primite de la giroscop, accelerometru
+	-trimitere date prin bluetooth la o alta placa arduino conectata la calculator
+	-trimitere semnale printr-un port usb la pc pentru a controla o aplicatie grafica
+	-interfata grafica de baza si fizica a aplicatiei simpla (miscari stanga-dreapta, sus-jos, diagonala)
+	-anumite miscari duc la efectuarea in joc a unei actiuni dedicata (ex indoirea unui deget duce la deschiderea meniului principal)
+
+Extra :
+	-raspuns haptic in manusa pentru anumite actiuni din aplicatie
+	-grafica avansata si miscari complexe (ex o mana care mimeaza miscarile facute de utilizator)   

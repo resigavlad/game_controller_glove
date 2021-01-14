@@ -1,0 +1,10 @@
+***Default baudrate = 9600***
+***Default name = MLT-BT05***
+***Default pass = 123456***
+***AT+RESTART***
+
+
+AT+BAUD8 -- 115200
+AT+NAMEmsttra -- set name to msttra (master transmitter)
+AT+ROLE1 -- set devices as master
+AT+BAND544A161E7C3E -- binds master to slave
